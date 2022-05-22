@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Healthcare Website ! Landing Page</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/5f08b8f8d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light mx-auto">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/logo.png" class="img-fluid logo" alt=""> We.Care</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Find a Doctor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Find a Hospital</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Meet Consultant</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Lastest <sup>New</sup></a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Login</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn custom-btn" type="submit">Sign up</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 flex">
+                        <div class="flex-2">
+                            <h2 class="bannertitle">Feel better about finding Healthcare</h2>
+                            <p class="bannertitle_sub">At We.Care, we take the guesswork out of finding the right doctors, hospital, care for you annd your family</p> 
+                            <div class="buttongroup">
+                              <button class="btn custom-btn">Find Doctor</button>
+                              <button class="btn custom-btn">Find Hospital</button>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-md-5 bannerDoctorimg">
+                        <img src="./images/doctor2_no_bg.png" class="banner_img" alt="">
+                    </div>
+                </div>
+
+                <!-- <div class="card sub_card mx-auto card-phone">
+                  <div class="container">
+                      <div class="row g-0">
+                          <div class="col-sm-6 col-md-12">
+                              <div class="row">
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="Search Doctors" aria-label="First name">
+                                  </div>
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                                  </div>
+                                </div>  
+                          </div>
+                        </div>
+                  </div>
+                </div> -->
+            </div>
+        </div>
+      </section>
+      <section id="search_area">
+        <div class="container">
+          <div class="card mx-auto card-phone">
+              <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Search Doctors, Conditions or Procedures" aria-label="Search">
+                    <span class="icon icon-search"><i class="fa fa-search" aria-hidden="true"></i></span>
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Set your Location" aria-label="Set your Location">
+                    <span class="icon icon-location"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                  </div>
+                </div>
+                <h4 class="you_may">You may be Looking for</h4>
+                <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                    <div class="col">
+                      <div class="p-3 border bg-light">Family Medicine <i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="col">
+                      <div class="p-3 border bg-light">Top Hospital <i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="col">
+                      <div class="p-3 border bg-light">COVID-19 <i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="col">
+                      <div class="p-3 border bg-light">TaleHealth <i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-more">More</button>
+                    </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="popular-searches">
+        <div class="container">
+          <h2>Popular Searches on We.Care</h2>
+              <div class="row">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-md-1" style="border-right: 2px solid darkblue;">
+                        <p class="active">Specialities</p>
+                        <p>Conditions</p>
+                        <p>Procedures</p>
+                      </div>
+                      <div class="col-md-10">
+                          <div class="container">
+                              <div class="row row-cols-1 row-cols-md-4 g-4">
+                                  <div class="col">
+                                    <div class="card">
+                                      <img src="./images/Neurology-512.png" class="card-img-top" style="width: 90px;" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Neurology</h5>
+                                       <button class="btn custom-btn">Find Doctor</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="card">
+                                      <img src="./images/dentist.png" style="width: 110px;" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                          <h5 class="card-title">Gingivitis</h5>
+                                          <button class="btn custom-btn">Find Doctor</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="card">
+                                      <img src="./images/nose.png" style="width: 60px;" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                          <h5 class="card-title">Rhinitis</h5>
+                                          <button class="btn custom-btn">Find Doctor</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="card">
+                                      <img src="./images/heart.png" class="card-img-top" alt="..." style="width: 90px;">
+                                      <div class="card-body">
+                                          <h5 class="card-title">Cardiomyopathy </h5>
+                                          <button class="btn custom-btn">Meet</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+
+      </section>
+
+
+
+      <section id="find-doctor">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4 bannerphoneimg">
+                      <img src="./images/doctor3-obg.png" class="banner_img" alt="">
+                  </div>
+                  <div class="col-md-8 flex">
+                      <div class="flex-2">
+                         <div class="col-md-9">
+                            <h5 class="bannertitle">
+                            Find the right doctor right at your figertips</h5>
+                         </div>
+                      </div> 
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="meet-our-doctor">
+        <div class="container">
+          <h3>Meet our Professional Doctor</h3>
+          <div class="row row-cols-1 row-cols-md-5 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="./images/doctor3-obg.png" style="width: 200px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr. Alex</h5>
+                   <button class="btn custom-btn">Meet</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./images/doctor2.png" style="width: 110px;" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Dr. John</h5>
+                      <button class="btn custom-btn">Meet</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./images/doctor3-obg.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Dr. John</h5>
+                      <button class="btn custom-btn">Meet</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="./images/doctor2.png" class="card-img-top" alt="..." style="width: 110px;">
+                  <div class="card-body">
+                      <h5 class="card-title">Dr. Alex</h5>
+                      <button class="btn custom-btn">Meet</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Meet Our Consultant -->
+
+      <section id="meet-our-consultant">
+        <div class="container">
+          <div class="row g-4">
+              <div class="col mb-3">
+                  <div class="">
+                     <div class="">
+                        <h5 class="bannertitle">
+                        Have any Complaint</h5>
+                        <p class="bannertitle_sub">Contact our best Consultant at We.Care and find solution to your ailment</p>
+                     </div>
+                     <button class="btn custom-btn">Meet Consultant</button>
+                  </div> 
+              </div>
+            </div>
+            <div class="col-md-6 mx-auto">
+              <form action="#">
+                  <div class="">
+                      <div class="col-12 mb-3">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                      </div>
+                      <div class="col-12 mb-3">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                      </div>
+                      <div class="col-12 mb-3">
+                      <textarea id="" cols="30" rows="10" class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn custom-btn meet-our-consultant-btn">Contact Consultant</button>
+                    </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="footer">
+        <footer>
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+              <div class="col">
+                <img src="./images/logo.png" style="width: 100px" alt=""> <span>We.Care</span>
+                <h4>Connect with us</h4>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+              </div>
+              <div class="col">
+                <h4>Quick Links</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Join</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="col">
+                <h4>Guides</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link">Find a Doctor</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Find an Hospital</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Meet our Consultant</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Book an Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Find a Solution</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="copyright">
+              <p>&copy; 
+                  <script>
+                      document.write(new Date().getFullYear());
+                    </script> All Rights Reserved | This website is developed with <i class="fa fa-heart"></i> by Ibidapo Ayomide</p>
+            </div>
+          </div>
+        </footer>
+        
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

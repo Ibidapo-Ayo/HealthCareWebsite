@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* /* Navbar * */
+ .navbar{
+    padding: 20px !important;
+    /* box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .5) !important; */
+}
+.navbar-brand .logo{
+    width: 40px;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 100px !important;
+}
+.navbar-light{
+    background-color: #dee7f1;
+}
+.navbar .nav-link{
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(8, 8, 59) !important;
+}
+.custom-btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: orange;
+    border: none;
+    border-radius: 1px;
+    color: white;
+}
+.custom-btn:hover{
+    background-color: rgb(141, 94, 7);
+    color: #fff;
+}
+.btn-more{
+    background-color: orange;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 80px;
+    border-radius: 0px;
+}
+#meet-our-doctor{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+#meet-our-doctor h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#meet-our-doctor .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto !important;
+    margin-top: 20px;
+}
+#meet-our-doctor .row-cols-md-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#meet-our-doctor .card .card-title{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-img-top{
+    width: 200px;
+}
+sup{
+    background: darkblue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* End Navbar */
+/* Banner */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.flex-2{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.bannertitle{
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: darkblue;
+    font-weight: 700;
+}
+.bannertitle_sub{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(8, 8, 56);
+}
+.subBannerTitle{
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-weight: 700;
+    text-align: left;
+}
+.subBannertitle_sub{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 1200px){
+    .banner_img{
+        width: 370px;
+    }
+    .flex-2{
+        margin-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }.bannertitle{
+        font-size: 30px;
+    }
+    .bannertitle_sub{
+        font-size: 15px;
+    }
+    .bannerDoctorimg{
+        margin-top: 50px;
+    }
+    .jumbotron{
+        height: 800px !important;
+    }
+    #start-section{
+        margin-top: 20px;
+        text-align: center; 
+    }
+    .display-4{
+        font-size: 30px !important;
+    }
+    .sub-title{
+        font-size: 15px !important;
+    }
+    .you-deserve{
+        margin: 50px auto;
+    }
+    .card-phone{
+        width: 20rem !important;
+    }
+    .subBannerTitle{
+        text-align: center;
+    }
+    .subBannertitle_sub{
+        text-align: center;
+    }
+    .row .col .form-control{
+        padding: 0px;
+    }
+}
+.jumbotron{
+    background-color: #dee7f1;
+    height: 600px;
+}
+/* Search Area */
+
+#search_area{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.row .col .form-control{
+    padding: 15px;
+    padding-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.row .col .form-control::placeholder{
+    font-size: 15px;
+}
+.icon {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 10px;
+}
+.icon-search{
+    font-size: 15px;
+}
+.you_may{
+    font-size: 15px;
+    margin: 20px;
+    margin-left: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.p-3{
+    background-color: #dee7f1 !important;
+    padding: 10px !important;
+    width: 180px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+#popular-searches{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+#popular-searches h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: darkblue;
+}
+#popular-searches .card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+#popular-searches p{
+    font-family: 'Montserrat', sans-serif;
+    opacity: .5;
+    color: #000;
+}
+#popular-searches .active{
+    opacity: 1;
+}
+.popular_search_card .img{
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+}
+#find-doctor{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+/* Meet Our consultant */
+
+#meet-our-consultant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to left, rgba(11, 39, 197, 0.404), rgba(0,0,0,.5)), url('../images/doctor1.jpg');
+    background-size: cover;
+    height: 700px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.meet-our-consultant-btn{
+    padding: 15px;
+}
+
+
+/* Footer */
+
+
+    #footer{
+        height: auto;
+    background: linear-gradient(to left, rgb(0,0,0), rgb(0,0,0));
+    padding: 40px;
+    font-family: "Montserrar", sans-serif;
+    color: white;
+    padding-top: 50px;
+    }
+#footer span{
+    font-family: "Montserrat",sans-serif;
+    font-size: 25px;
+}
+#footer i{
+    font-size: 30px;
+    margin: 40px 20px 30px;
+    cursor: pointer;
+}
+#footer i:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+#footer .nav .nav-item .nav-link{
+    color: white;
+    font-family: "Montserrat",sans-serif;
+}
+#footer .copyright{
+    text-align: center;
+}
+#footer .copyright .fa-heart{
+    font-size: 15px;
+    margin: 0;
+    color: orange;
+}
